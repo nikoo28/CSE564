@@ -1,0 +1,25 @@
+Window "HORROR STORIES" (800, 300) Layout Flow:
+Label "Do you like scary stories?";
+Panel Layout Grid(3, 1, 2, 2):
+Group
+Radio "Yes";
+Radio "No";
+Radio "HECK NO!";
+End;
+End;
+Panel Layout Flow:
+Label "What is your favorite creepypasta? : ";
+Textfield 20;
+Button "Enter";
+End;
+Label "Please select your favorite from the list below: ";
+Panel Layout Grid(5, 1, 2, 2):
+Group
+Radio "SCP Foundation";
+Radio "Jeff The Killer";
+Radio "The Angel Statue";
+Radio "The Rake";
+Radio "The Slender Man";
+End;
+End;
+End.

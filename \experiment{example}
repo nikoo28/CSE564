@@ -1,0 +1,37 @@
+\experiment{example}
+
+\lipsum[1]
+
+%-----------------------------------------
+
+\experiment{example2} % Multiple experiments can be included in a single day, this allows you to segment what was done each day into separate categories
+
+\begin{figure}[H] % Example of including images
+\begin{center}
+\includegraphics[width=0.5\linewidth]{example_figure}
+\end{center}
+\caption{Example figure.}
+\label{fig:example_figure}
+\end{figure}
+
+%-----------------------------------------
+
+\experiment{table}
+\begin{table}[H]
+\begin{tabular}{l l l}
+\toprule
+\textbf{Groups} & \textbf{Treatment X} & \textbf{Treatment Y} \\
+\toprule
+1 & 0.2 & 0.8\\
+2 & 0.17 & 0.7\\
+3 & 0.24 & 0.75\\
+4 & 0.68 & 0.3\\
+\bottomrule
+\end{tabular}
+\caption{The effects of treatments X and Y on the four groups studied.}
+\label{tab:treatments_xy}
+\end{table}
+
+Table \ref{tab:treatments_xy} shows that groups 1-3 reacted similarly to the two treatments but group 4 showed a reversed reaction.
+
+%----------------------------------------------------------------------------------------
